@@ -102,8 +102,8 @@
         };
 
         layer_5 {
-            status = "reserved";
-            display-name = "Brank Layer";
+            #status = "reserved";
+            display-name = "Arrow Layer";
             bindings = <
                 &trans           &trans             &trans                &trans                  &trans                                                 &trans       &trans           &trans             &trans              &trans
                 &trans           &trans             &trans                &trans                  &trans                                                 &trans       &trans           &trans             &trans              &trans
@@ -113,7 +113,7 @@
         };
 
         layer_6 {
-            status = "reserved";
+            #status = "reserved";
             display-name = "Brank Layer";
             bindings = <
                 &trans           &trans             &trans                &trans                  &trans                                                 &trans       &trans           &trans             &trans              &trans
@@ -124,7 +124,7 @@
         };
 
         layer_7 {
-            status = "reserved";
+            #status = "reserved";
             display-name = "Brank Layer";
             bindings = <
                 &trans           &trans             &trans                &trans                  &trans                                                 &trans       &trans           &trans             &trans              &trans
