@@ -20,7 +20,7 @@ layers:
   - {t: J, h: RGUI}
   - {t: K, h: RSHIFT}
   - {t: L, h: RALT}
-  - {t: ;, h: Mark Layer}
+  - {t: ;, h: Number Layer}
   - Z
   - X
   - C
@@ -32,18 +32,18 @@ layers:
   - .
   - /
   - {t: DEL, h: Device Layer}
-  - {t: Mouse Layer, h: toggle}
-  - {t: TAB, h: Mouse Layer}
+  - {t: Symbol Layer, h: toggle}
+  - {t: TAB, h: Symbol Layer}
   - Sft+Gui+4
-  - {t: SPACE, h: Number Layer}
-  - {t: ESC, h: Mark Layer}
-  - {t: BS, h: Mark Layer}
-  - {t: ENTER, h: Number Layer}
+  - {t: SPACE, h: Allow Layer}
+  - {t: ESC, h: Number Layer}
+  - {t: BS, h: Number Layer}
+  - {t: ENTER, h: Allow Layer}
   - Sft+Gui+4
   - F7
   - F10
   - {t: F12, h: Device Layer}
-  Mouse Layer:
+  Symbol Layer:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -86,7 +86,7 @@ layers:
   - ↓
   - {t: ▽, type: trans}
   - Gui+W
-  Number Layer:
+  Allow Layer:
   - {t: ▽, type: trans}
   - '7'
   - '8'
@@ -129,7 +129,7 @@ layers:
   - Sft+Ctl+TAB
   - Ctl+TAB
   - F12
-  Mark Layer:
+  Number Layer:
   - Sft+Gui+4
   - F4
   - (
