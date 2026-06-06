@@ -31,17 +31,17 @@ layers:
   - ','
   - .
   - /
-  - {t: DEL, h: Device Layer}
-  - {t: Symbol Layer, h: toggle}
+  - LEFT WIN
+  - ','
+  - PERIOD
   - {t: TAB, h: Symbol Layer}
-  - Sft+Gui+4
   - {t: SPACE, h: Allow Layer}
-  - {t: ESC, h: Number Layer}
+  - {t: LANGUAGE 2, h: Number Layer}
   - {t: BS, h: Number Layer}
   - {t: ENTER, h: Allow Layer}
   - Sft+Gui+4
-  - F7
-  - F10
+  - LANGUAGE 1
+  - RIGHT ALT
   - {t: F12, h: Device Layer}
   Symbol Layer:
   - {t: ▽, type: trans}
@@ -76,8 +76,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -203,7 +203,7 @@ layers:
   - ''
   - ''
   - Reset
-  - {t: Boot, type: held}
+  - Boot
   - BT CLR ALL
   - ''
   - ''
@@ -214,4 +214,4 @@ layers:
   - ''
   - ''
   - ''
-  - Boot
+  - {t: Boot, type: held}
